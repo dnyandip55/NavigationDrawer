@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/x"
+            android:title="Premium" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/bookmark"
+            android:title="Bookmarks" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/lists"
+            android:title="Lists" />
+        <item
+            android:id="@+id/nav_monetisation"
+            android:icon="@drawable/monetisation"
+            android:title="Monetisation" />
+
+
+        <!-- Settings submenu -->
+        <item
+            android:title="Settings &amp; Support">
+            <menu>
+                <item
+                    android:id="@+id/nav_setting1"
+                    android:title="Setting &amp; Privacy"
+                    android:icon="@drawable/setting"/>
+                <item
+                    android:id="@+id/nav_setting2"
+                    android:title="Help Centre"
+                    android:icon="@drawable/help"/>
+            </menu>
+        </item>
+    </group>
+</menu>
